@@ -11,7 +11,7 @@ function validate(){
   var gender = document.getElementsByName('gender');
   var contact_number = document.getElementById('contact_number').value;
   var skill=[-1];
-  for (var i=1;i<8;i++){
+  for (var j=1;i<8;i++){
     if(document.getElementById('skill'+i).value == ""){
       continue;
     }
