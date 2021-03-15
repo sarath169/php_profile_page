@@ -1,4 +1,4 @@
-<?php include 'validate.php'; ?>
+<?php include_once 'validate.php'; ?>
 
     <?php
     if(isset($_REQUEST["submit"]))
