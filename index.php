@@ -14,7 +14,7 @@
     <div class="">
 
       <div class="whole_container">
-      <form action="img_upload.php" method="post" enctype="multipart/form-data" onsubmit="return validate()">
+      <form action="img_upload.php" method="post" id="reg_form" enctype="multipart/form-data" onsubmit="return validate()">
 
         <div class="form_container">
           <div class="label">

@@ -1,4 +1,9 @@
 function validate(){
+  var form = document.getElementById('reg_form').elements;
+  console.log(form);
+  for(var i=0;i<form.length;i++){
+    console.log(form[i].value);
+  }
   var name = document.getElementById('name').value;
   var email = document.getElementById('email').value;
   var dob = document.getElementById('dob').value;
@@ -20,7 +25,7 @@ function validate(){
   var education = document.getElementById('education').value;
   var interests = document.getElementById('interests').value;
   var professional_links = document.getElementById('professional_links').value;
-          console.log(gender);
+          // console.log(gender);
   if(name ==''){
     document.getElementById('alert-name').style.color="red";
     document.getElementById('alert-name').innerHTML ="Name can't be empty";
